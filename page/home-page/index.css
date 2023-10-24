@@ -9,7 +9,7 @@
 
 /* Gloable Style */
 :root {
-  --color-header: rgb(240, 250, 253);
+  --color-header: #f0fafd;
 }
 
 /* header style */
@@ -49,7 +49,7 @@
 
 .menu ul li a{
     text-decoration: none;
-    color: rgb(87, 83, 83);
+    color: #575353;
 }
 
 .menu ul li:hover{
@@ -75,11 +75,11 @@
 
 }
 .login-sigin .btn-login:hover{
-    color: rgba(0, 0, 255, 0.447);
+    color: #0000ff72;
 }
 
 .login-sigin .btn-signup{
-    padding: 9px 22px;
+    padding: 8px 25px;
     background-color: rgba(0, 0, 255, 0.447);
     border-radius: 25px;
    font-size: 12px;
