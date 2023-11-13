@@ -1,0 +1,179 @@
+.imgg{
+    width: 100%;
+    height: 350px;
+    background-color: lightblue;
+    background-image: url(https://d1vcqlflm6aitx.cloudfront.net/images/800x100p/1584928785-annie-spratt-QckxruozjRg-unsplash.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 5%;
+    width: 80%;
+    overflow: hidden;
+    /* background-color: tan; */
+    display: flex; /* Use flexbox to center the .row */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.row{
+    width: 100%;
+    height: 500px;
+    /* background-color: green; */
+    margin: 0 auto;
+    float: left;
+    box-sizing: border-box;
+}
+.location{
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    margin-top: 45px;
+    
+}
+.location h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.location p{
+    margin-left: 25px;
+}
+.location ul{
+    display: inline;
+    list-style-type: none;
+}
+.location ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.container-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #fff; */
+}
+form{
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    /* background-color:tomato; */
+    border: 1px black groove;
+    margin-right: -90px;
+    box-sizing: border-box;
+
+}
+form:hover{
+    background-color: tomato;
+    transition: background-color 0.7s ease;
+}
+.name{
+    margin: auto;
+}
+#fname{
+    width: 49%;
+}
+#lname{
+    width: 49%;
+    float: right;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 15px;
+    outline: none;
+    background-color: antiquewhite;
+    font-size: 16px;
+    border-radius: 30px;
+}
+form button, #btn{
+    padding: 15px;
+    background-color: #9080fc;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    width: 150px;
+    margin: 5px auto 0;
+    border-radius: 30px;
+}
+form button:hover, #btn:hover{
+    background-color: transparent;
+    border: 1px groove black;
+    transition: 0.3s ease;
+}
+
+
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+#icon1{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    font-size: 40px;
+    border-radius: 100px;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, 50);
+    /* line-height: 100px; */
+    text-decoration: none;
+}
+#map {
+    border: 1px solid #000;
+    height: 500px;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+
+.information-container{
+    width: 80%;
+    background-color: #abb8c3;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 40vh; /* Center vertically in the viewport */
+    justify-content: center; /* Center horizontally in the viewport */
+}
+
+.twin-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+#btn{
+    margin-right: 20px;
+}
+#btn a{
+    color: white;
+    text-decoration: none;
+}
+#btn a i{
+    margin-right: 5px;
+}
+
+
