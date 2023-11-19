@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*a{
+    text-decoration: none;
+}
+.container-x{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+*.bg-main{
+    background-color: #9080FC;
+}
+*.main-color{
+    color: #9080FC;
+}
+
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 300px;
+}
+.banner .title{
+    padding: 1rem;
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    width: 350px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+.banner .title{
+    font-size: 2rem;
+    font-family: sans-serif;
+    align-items: center;
+}
+.banner .title a{
+    font-size: 1rem;
+    color: gray;
+    text-decoration: none;
+}
+.container-x .main-blog{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+    gap: 1rem;
+}
+.container-x .main-blog .blog-box{
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.container-x .main-blog .blog-box .box{
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+    border-radius: 15px;
+}
+.container-x .main-blog .blog-box .image{
+    margin: 0 auto;
+}
+.container-x .main-blog .blog-box:hover {
+    background-image: linear-gradient(0deg, #d9afd93c 0%, #97dae164 100%);
+    transition: 1s ease;
+}
+.container-x .main-blog .blog-box:hover .image{
+    transform: scale(1.05);
+    transform: rotate(2deg);
+    border-radius: 15px;
+    transition: 1s ease;
+}
+.container-x .main-blog .blog-box a{
+    text-decoration: none;
+    margin-top: .50rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container-x .main-blog .blog-box a p{
+    padding: .30rem .50rem;
+    border-radius: 5px;
+    background-color: #9080FC;
+    color: #fff;
+    font-weight: bold;
+}
+.container-x .main-blog .blog-box p{
+    font-size: small;
+    margin-top: 1rem;
+}
+.container-x .main-blog .about span p,
+.container-x .main-blog .about ul li{
+    color: gray;
+}
+
+/* .container-x .main-blog .ideas .idea-box{
+    padding: 1rem;
+    border-radius: 7px;
+    background-image: url(https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/young-woman-studying-at-home-2021-12-03-15-28-10-utc-1024x683.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: .50rem 0;
+    color: #fff;
+} */
+.container-x .main-blog .ideas .idea-box{
+    width: 100%;
+    height: 90px;
+    padding: 1rem;
+    border-radius: 7px;
+    margin: .50rem 0;
+    position: relative;
+}
+
+.container-x .main-blog .ideas .idea-box .bg-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9180fc5f;
+    border-radius: 7px;
+    z-index: 2;
+}
+.container-x .main-blog .ideas .idea-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.container-x .main-blog .ideas .idea-box span,
+.container-x .main-blog .ideas .idea-box svg{
+    color: #fff;
+    z-index: 3;
+    font-size: .90rem;
+    font-weight: 500;
+}
+.container-x .main-blog .ideas .idea-box:hover .bg-layer{
+    background-color: #9180fcab;
+    transition: 2s ease ease-in-out;
+}
