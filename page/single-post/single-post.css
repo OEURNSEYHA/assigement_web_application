@@ -44,3 +44,34 @@
     font-size: 3rem;
     
 }
+
+.container-x .contents{
+    margin-top: 3rem;
+
+}
+.container-x .contents .title-of-content{
+    display: flex;
+
+}
+.container-x .contents .title-of-content .date{
+    font-weight: 500;
+}
+.container-x .contents .title-of-content p{
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #9080FC;
+}
+.container-x .contents .image{
+    margin-top: 1rem;
+}
+.container-x .contents .image img{
+    border-radius: 10px;
+    width: 100%;
+}
+.container-x .contents .split-txt{
+    margin-top: 1.4rem;
+    columns: 2 auto;
+}
+
+
+
