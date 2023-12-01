@@ -1,0 +1,58 @@
+/* img{
+     height: 100%;
+     max-width: 100%;   
+    object-fit: cover;
+     margin: auto;
+   } */
+
+   
+body{
+    background-color: rgba(250, 250, 250, 0.806);
+}
+/* banner container  */
+
+
+
+.gradient{
+    background: hsla(279, 83%, 70%, 1);
+
+background: linear-gradient(135deg, hsla(279, 83%, 70%, 1) 0%, hsla(199, 91%, 69%, 1) 50%, hsla(321, 90%, 70%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(279, 83%, 70%, 1) 0%, hsla(199, 91%, 69%, 1) 50%, hsla(321, 90%, 70%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(279, 83%, 70%, 1) 0%, hsla(199, 91%, 69%, 1) 50%, hsla(321, 90%, 70%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C471F2", endColorstr="#69CBF8", GradientType=1 );
+opacity: 0.3;
+}
+/* img{
+    @appbject-cover 
+} */
+
+@media (min-width: 1200px) {
+    .section1  img{
+       object-position: 0px -150px;
+    }
+}
+@media (max-width: 800px) {
+    .section1  img{
+       object-position: 0px -40px;
+    }
+}
+
+ .overlay{
+    background: hsla(279, 83%, 70%, 1);
+
+background: linear-gradient(135deg, hsla(279, 83%, 70%, 1) 0%, hsla(199, 91%, 69%, 1) 50%, hsla(321, 90%, 70%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(279, 83%, 70%, 1) 0%, hsla(199, 91%, 69%, 1) 50%, hsla(321, 90%, 70%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(279, 83%, 70%, 1) 0%, hsla(199, 91%, 69%, 1) 50%, hsla(321, 90%, 70%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C471F2", endColorstr="#69CBF8", GradientType=1 );
+opacity: 0.3;
+}
+
+ .float-box{
+    backdrop-filter: blur(30);
+}
