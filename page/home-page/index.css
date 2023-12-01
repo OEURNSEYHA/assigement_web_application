@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Gloable Style */
@@ -29,73 +29,90 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.header .menu{
-    width: 80%;
-    height: auto;
-    display: flex;
-    justify-content: center;
+.header .menu {
+  height: 100%;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
-.header .menu ul{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-    color: rgb(87, 83, 83);
-
+.header .menu ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  color: rgb(87, 83, 83);
 }
 
-.menu ul li a{
-    text-decoration: none;
-    color: #575353;
+.menu ul li a {
+  text-decoration: none;
+  color: #575353;
 }
 
-.menu ul li:hover{
-    color: black;
-    font-weight: 500;
+.menu ul li:hover {
+  color: black;
+  font-weight: 500;
 }
 
-.header .login-sigin{
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    align-items: center;
+.menu ul .sub-menu {
+  position: absolute;
+  padding: 20px;
+  display: none;
+  align-items: start;
+  flex-direction: column;
+
+  gap: 8px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.151);
+  top: 100%;
+  z-index: 20;
+  transition: all 0.5s;
+  width: 130px;
 }
 
-.login-sigin .btn-login{
-    padding: 9px 22px;
-    
-    border-radius: 25px;
-   font-size: 12px;
-   color: black;
-   font-weight: 500;
-   cursor: pointer;
-
+.menu ul .page:hover .sub-menu {
+  display: flex;
 }
-.login-sigin .btn-login:hover{
-    color: #0000ff72;
+.header .login-sigin {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
 }
 
-.login-sigin .btn-signup{
-    padding: 8px 25px;
-    background-color: rgba(0, 0, 255, 0.447);
-    border-radius: 25px;
-   font-size: 12px;
-   color: white;
-   font-weight: 500;
-   cursor: pointer;
+.login-sigin .btn-login {
+  padding: 9px 22px;
+
+  border-radius: 25px;
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
 }
-.login-sigin .btn-signup:hover{
-    transition: all 0.2s;
-    color: black;
-    background-color: white;
-    border: 0.5px solid;
-    border-color: rgba(0, 0, 255, 0.447);
+.login-sigin .btn-login:hover {
+  color: #0000ff72;
+}
+
+.login-sigin .btn-signup {
+  padding: 8px 25px;
+  background-color: rgba(0, 0, 255, 0.447);
+  border-radius: 25px;
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login-sigin .btn-signup:hover {
+  transition: all 0.2s;
+  color: black;
+  background-color: white;
+  border: 0.5px solid;
+  border-color: rgba(0, 0, 255, 0.447);
 }
 
 #preloader {
@@ -137,5 +154,162 @@
     top: calc(50% - 36px);
     left: calc(50% - 36px);
     opacity: 0;
+  }
+}
+
+/*Extra  large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+/*large devices (desktop, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/*Medium devices (tables, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header .content-header {
+    width: 100%;
+  }
+
+  .header .menu {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    top: 0;
+
+    width: 300px;
+    padding: 20px;
+    height: 100vh;
+    transition: all 1s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    left: -100%;
+  }
+  .header .menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .header .menu ul li.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 0px;
+  }
+
+  .menu ul .sub-menu {
+    position: unset;
+    display: flex;
+    align-items: start;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    width: fit-content;
+    gap: 20px;
+  
+  }
+}
+/*small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header .content-header {
+    width: 100%;
+  }
+
+  .header .menu {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    top: 0;
+
+    width: 300px;
+    padding: 20px;
+    height: 100vh;
+    transition: all 1s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    left: -100%;
+  }
+  .header .menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .header .menu ul li.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 0px;
+  }
+
+  .menu ul .sub-menu {
+    position: unset;
+    display: flex;
+    align-items: start;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    width: fit-content;
+    gap: 20px;
+  
+  }
+}
+/*Extra   small devices (portrait phones, less than 576)*/
+@media (max-width: 575.98px) {
+  .header .content-header {
+    width: 100%;
+  }
+
+  .header .menu {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    top: 0;
+
+    width: 300px;
+    padding: 20px;
+    height: 100vh;
+    transition: all 1s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    left: -100%;
+  }
+  .header .menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .header .menu ul li.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 0px;
+  }
+
+  .menu ul .sub-menu {
+    position: unset;
+    display: flex;
+    align-items: start;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    width: fit-content;
+    gap: 20px;
+  
   }
 }
