@@ -9,7 +9,7 @@
 .container-x{
     width: 1000px;
     margin: 0 auto;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .banner{
@@ -70,8 +70,282 @@
 }
 .container-x .contents .split-txt{
     margin-top: 1.4rem;
-    columns: 2 auto;
+    columns: 2;
+}
+.container-x .quote{
+    padding: 2rem;
+    background-color: #ECF3FC;
+    width: 100%;
+    border-radius: 10px;
+    margin: .50rem 0;
+}
+.container-x .quote #qt{
+    width: 50px; height: 50px;
+    font-weight: bold;
+    color: #9080FC;
+}
+.container-x .quote p{
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+.container-x .quote p span{
+    font-weight: bolder;
+}
+
+.form-blog{
+    margin-bottom: 3rem;
+}
+.form-blog .post-btn{
+    padding: .70rem;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background-color: #9080FC;
+    color: #ECF3FC;
+}
+.form-blog .post-btn:hover{
+    background-color: transparent;
+    transition: 1s ease;
+    color: #000;
+}
+.form-blog .check-post{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
 
+.blog-box {
+    margin-top: 3rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.blog-box .box{
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+    border-radius: 15px;
+}
+.blog-box .image{
+    margin: 0 auto;
+}
+.blog-box:hover {
+    background-image: linear-gradient(0deg, #d9afd93c 0%, #97dae164 100%);
+    transition: 1s ease;
+}
+.blog-box:hover .image{
+    transform: scale(1.05);
+    transform: rotate(2deg);
+    border-radius: 15px;
+    transition: 1s ease;
+}
+.blog-box a{
+    text-decoration: none;
+    margin-top: .50rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.blog-box a p{
+    padding: .30rem .50rem;
+    border-radius: 5px;
+    background-color: #9080FC;
+    color: #fff;
+    font-weight: bold;
+}
+.blog-box p{
+    font-size: small;
+    margin-top: 1rem;
+}
+.about span p,
+.about ul li{
+    color: gray;
+}
+
+
+.blog-box .ideas .idea-box{
+    width: 100%;
+    height: 90px;
+    padding: 1rem;
+    border-radius: 7px;
+    margin: .50rem 0;
+    position: relative;
+}
+
+.blog-box .ideas .idea-box .bg-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9180fc5f;
+    border-radius: 7px;
+    z-index: 2;
+}
+.blog-box .ideas .idea-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.blog-box .ideas .idea-box span,
+.blog-box .ideas .idea-box svg{
+    color: #fff;
+    z-index: 3;
+    font-size: .90rem;
+    font-weight: 500;
+}
+.blog-box .ideas .idea-box:hover .bg-layer{
+    background-color: #9180fcab;
+    transition: 2s ease ease-in-out;
+}
+
+
+ .newslatter{
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    text-decoration: none;
+    padding: 1rem;
+}
+ .newslatter input{
+    padding: .70rem;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    border-radius: 50px;
+    width: 100%;
+    outline: none;
+}
+ .newslatter .btn-subs{
+    padding-top: .50rem;   
+}
+ .newslatter .btn-subs button{
+    padding: .70rem;
+    border-radius: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    width: 40%;
+    background-color: #9080FC;
+    color: #fff;
+}
+ .newslatter .btn-subs button:hover{
+    background-color: transparent;
+    transition: all 1s;
+    color: black;
+}
+
+ .follow{
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    text-decoration: none;
+    padding: 1rem;
+}
+ .follow .links{
+    line-height: 40px;
+    text-align: center;
+    align-self: center;
+    overflow-y: visible;
+}
+ .follow .links a{
+    border-radius: 50%;
+    padding: .40rem .60rem;
+    background-color: #9080FC;
+    color: #fff;
+    transition: 1s;
+}
+
+ .follow .links a:hover svg{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+
+
+.container-x .contacts{
+    margin-top: 5rem;
+    padding: 4rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #BED8F0;
+    text-align: center;
+}
+.container-x .contacts p{
+    font-style: oblique;
+    padding-top: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.container-x .contacts .btn-flex{
+    margin-top: 1rem;
+}
+.container-x .contacts .btn-flex button{
+    padding: .70rem 1rem;
+    border-radius: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    background-color: #9080FC;
+    color: #fff;
+}
+.container-x .contacts .btn-flex button:hover{
+    background-color: transparent;
+    transition: 1s;
+    color: black;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .contents {
+        width: 75%;
+        padding: 0 .50rem;
+    }
+    .quote-res {
+        width: 70%;
+        padding: 0 .80rem;
+    }
+    .form-blog{
+        padding: 0 .50rem;
+    }
+    .form-blog .check-post {
+        font-size: 8pt;
+    }
+    .responsive {
+      width: 45%;
+      margin-left: 1.3rem;
+    }
+    .container-x .contacts{
+        width: 45%;
+        margin-left: 1.3rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .contents {
+        width: 75%;
+        padding: 0 .50rem;
+    }
+    .quote-res {
+        width: 70%;
+        padding: 0 .80rem;
+    }
+    .form-blog{
+        padding: 0 .50rem;
+    }
+    .form-blog .check-post {
+        font-size: 8pt;
+    }
+    .responsive {
+      width: 45%;
+      margin-left: 1.3rem;
+    }
+    .container-x .contacts{
+        width: 45%;
+        margin-left: 1.3rem;
+    }
+  }
