@@ -1,893 +1,634 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="../home-page/index.css" />
-    <title>Online course | Pricing</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      * {
-        font-family: "Roboto", sans-serif;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- header -->
-    <div class="px-5 lg:px-0 header">
-      <div class="content-header">
-        <a href="/">
-          <img
-            src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png"
-            alt=""
-            width="80"
-        /></a>
-        <div class="menu">
-          <ul>
-            <div class="flex">
-              <img
-                src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png"
-                alt=""
-                width="50"
-                class="lg:hidden"
-              />
-              <img
-                src="../../public/image/cross.png"
-                alt=""
-                class="icon-hide lg:hidden absolute right-5"
-                width="20"
-              />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="../home-page/index.css" />
+  <title>Online course | Pricing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * {
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <div class="px-5 lg:px-0 header">
+    <div class="content-header">
+      <a href="/">
+        <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png" alt=""
+          width="80" /></a>
+      <div class="menu">
+        <ul>
+          <div class="flex">
+            <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png" alt=""
+              width="50" class="lg:hidden" />
+            <img src="../../public/image/cross.png" alt="" class="icon-hide lg:hidden absolute right-5" width="20" />
+          </div>
+          <li><a href="/">Home</a></li>
+          <li><a href="../about/about.html">About</a></li>
+          <li><a href="../course/course.html">Course</a></li>
+          <li class="flex gap-3 items-center relative page">
+            <div class="flex gap-5 items-center">
+              <span>Page</span>
+              <img src="../../public/image/down-arrow.png" alt="" class="w-[10px] h-[10px]" />
             </div>
-            <li><a href="/">Home</a></li>
-            <li><a href="../about/about.html">About</a></li>
-            <li><a href="../course/course.html">Course</a></li>
-            <li class="flex gap-3 items-center relative page">
-              <div class="flex gap-5 items-center">
-                <span>Page</span>
-                <img
-                  src="../../public/image/down-arrow.png"
-                  alt=""
-                  class="w-[10px] h-[10px]"
-                />
-              </div>
-              <ul class="sub-menu bg-white">
-                <li><a href="../FAQs/faq.html">FAQs Page</a></li>
-                <li><a href="../mentor/mentor.html">Mentor </a></li>
-                <li><a href="../pricing/">Pricing</a></li>
-                <li><a href="../testimonials/index.html">Testimonials</a></li>
-                <li><a href="../blog/block.html">Blog</a></li>
-                <li>
-                  <a href="../single-post/single-post.html"> Single Post</a>
-                </li>
-                <li><a href="../page-notfound.html">404 Page</a></li>
-              </ul>
-            </li>
-            <li><a href="../contact-page/contact-page.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="login-sigin mr-10 lg:mr-0">
-          <div class="btn-login">Login</div>
-          <div class="btn-signup">SignUp</div>
-        </div>
-        <img
-          src="../../public/image/menu (3).png"
-          alt=""
-          width="20"
-          class="lg:hidden berger absolute right-5"
-        />
+            <ul class="sub-menu bg-white">
+              <li><a href="../FAQs/faq.html">FAQs Page</a></li>
+              <li><a href="../mentor/mentor.html">Mentor </a></li>
+              <li><a href="../pricing/">Pricing</a></li>
+              <li><a href="../testimonials/index.html">Testimonials</a></li>
+              <li><a href="../blog/block.html">Blog</a></li>
+              <li>
+                <a href="../single-post/single-post.html"> Single Post</a>
+              </li>
+              <li><a href="../page-notfound.html">404 Page</a></li>
+            </ul>
+          </li>
+          <li><a href="../contact-page/contact-page.html">Contact</a></li>
+        </ul>
       </div>
+      <div class="login-sigin mr-10 lg:mr-0">
+        <div class="btn-login">Login</div>
+        <div class="btn-signup">SignUp</div>
+      </div>
+      <img src="../../public/image/menu (3).png" alt="" width="20" class="lg:hidden berger absolute right-5" />
     </div>
-    <main class="w-full">
-      <div class="w-full relative">
-        <img
-          class="w-full h-[460px] object-cover opacity-30"
-          src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/schoolgirl-studying-at-home-RADXERR.jpg"
-          alt=""
-        />
-        <!-- <div class="w-full h-full absolute z-5 left-0 top-0">
+  </div>
+  <main class="w-full">
+    <div class="w-full relative">
+      <img class="w-full h-[460px] object-cover opacity-30"
+        src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/schoolgirl-studying-at-home-RADXERR.jpg"
+        alt="" />
+      <!-- <div class="w-full h-full absolute z-5 left-0 top-0">
         <img class="opacity-60 h-[400px]" src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/rm218batch4-ning-34.jpg" alt="">
       </div> -->
-        <div
-          class="w-full absolute z-10 flex item-center justify-center left-0 bottom-0"
-        >
-          <div
-            class="w-[400px] h-[150px] bg-white rounded-tl-lg rounded-tr-lg p-3"
-          >
-            <h1 class="text-center text-[48px]">Pricing Plans</h1>
-            <h1 class="flex justify-center text-[14px]">
-              <span class="flex">
-                Home
-                <span class="mx-2 p-1"
-                  ><svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="0.8rem"
-                    viewBox="0 0 448 512"
-                  >
+      <div class="w-full absolute z-10 flex item-center justify-center left-0 bottom-0">
+        <div class="w-[400px] h-[150px] bg-white rounded-tl-lg rounded-tr-lg p-3">
+          <h1 class="text-center text-[48px]">Pricing Plans</h1>
+          <h1 class="flex justify-center text-[14px]">
+            <span class="flex">
+              Home
+              <span class="mx-2 p-1"><svg xmlns="http://www.w3.org/2000/svg" height="0.8rem" viewBox="0 0 448 512">
+                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                </svg>
+              </span>
+              Pricing
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!--Start Choosing plans section-->
+    <div class="w-full flex justify-center item-center">
+      <div class="w-[560px] py-8">
+        <h1 class="text-center text-[56px]">Choose The Best Plans</h1>
+        <h1 class="text-center text-[14px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor
+          enim, euismod nec ullamcorper tempor, maximus fermentum leo.
+        </h1>
+      </div>
+    </div>
+    <!--End Choosing plans section-->
+
+    <!--Satrt Card Pricing Package section-->
+    <div class="w-[80%] mx-auto">
+      <div class="w-full flex flex-wrap sm:flex-col md:flex-row">
+        <div class="md:w-[32%] sm:w-full rounded-[15px] md:mr-3 sm:mr-0 md:mb-0 mb-4 p-10 border-[2px] border-[#ddd]">
+          <h1 class="text-center text-[30px] mb-6">Basic Package</h1>
+          <h1 class="text-center text-[14px] mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h1>
+          <h1 class="text-center text-[48px] text-blue-600 font-medium mb-6">
+            $ 39.99 <sup class="text-[19px] text-black">/ Product</sup>
+          </h1>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">No monthly fees</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">Unlimited Course</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">Monthly Workshops</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">24/7 Support</h3>
+          </div>
+          <div class="w-full flex justify-center item-center mt-6">
+            <button class="px-6 py-[5px] rounded-[15px] bg-[#9080FC] text-white font-medium">
+              Get Start
+            </button>
+          </div>
+        </div>
+        <div class="md:w-[32%] sm:w-full rounded-[15px] md:mx-3 sm:mx-0 md:mb-0 mb-4 p-10 border-[2px] border-[#ddd]">
+          <h1 class="text-center text-[30px] mb-6">Regular Package</h1>
+          <h1 class="text-center text-[14px] mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h1>
+          <h1 class="text-center text-[48px] text-blue-600 font-medium mb-6">
+            $ 49.99 <sup class="text-[19px] text-black">/ Product</sup>
+          </h1>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">No monthly fees</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">Unlimited Course</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">Monthly Workshops</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">24/7 Support</h3>
+          </div>
+          <div class="w-full flex justify-center item-center mt-6">
+            <button class="px-6 py-[5px] rounded-[15px] bg-[#9080FC] text-white font-medium">
+              Get Start
+            </button>
+          </div>
+        </div>
+        <div class="md:w-[32%] sm:w-full rounded-[15px] md:ml-3 sm:ml-0 md:mb-0 mb-4 p-10 border-[2px] border-[#ddd]">
+          <h1 class="text-center text-[30px] mb-6">Premium Package</h1>
+          <h1 class="text-center text-[14px] mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h1>
+          <h1 class="text-center text-[48px] text-blue-600 font-medium mb-6">
+            $ 59.99 <sup class="text-[19px] text-black">/ Product</sup>
+          </h1>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">No monthly fees</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">Unlimited Course</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">Monthly Workshops</h3>
+          </div>
+          <div class="flex mb-6 justify-center">
+            <span class="">
+              <svg xmlns="http://www.w3.org/2000/svg" style="color: blueviolet !important" width="22" height="22"
+                viewBox="0 0 24 24">
+                <path fill="#888888"
+                  d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z" />
+              </svg>
+            </span>
+            <h3 class="text-center text-[16px]">24/7 Support</h3>
+          </div>
+          <div class="w-full flex justify-center item-center mt-6">
+            <button class="px-6 py-[5px] rounded-[15px] bg-[#9080FC] text-white font-medium">
+              Get Start
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Card Pricing Package section-->
+
+    <!--Start Frequently Asked Questions section-->
+    <div class="w-full flex justify-center item-center mt-16">
+      <div class="w-[800px] py-8">
+        <h1 class="text-center text-[56px]">Frequently Asked Questions</h1>
+        <h1 class="text-center text-[14px]">
+          Ut eget mattis lacus, sit amet accumsan erat. Integer suscipit justo
+          vel iaculis scelerisque. Nam vel porta augue. Proin egestas leo
+          magna, vel tincidunt magna laoreet eu.
+        </h1>
+      </div>
+    </div>
+    <!--End Frequently Asked Questions section-->
+
+    <!--Start Frequently Asked Questions Card section-->
+    <div class="w-[80%] mx-auto h-[300px]">
+      <div class="w-full flex flex-wrap sm:flex-col md:flex-row">
+        <div class="md:w-[50%] sm:w-full">
+          <div class="w-full">
+            <div class="">
+              <button id="question-1"
+                class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium">
+                How do I register and join Studdy?
+                <span class="p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="color: white !important" height="1em"
+                    viewBox="0 0 320 512">
                     <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                     <path
-                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
-                    />
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
                   </svg>
                 </span>
-                Pricing
-              </span>
-            </h1>
-          </div>
-        </div>
-      </div>
-
-      <!--Start Choosing plans section-->
-      <div class="w-full flex justify-center item-center">
-        <div class="w-[560px] py-8">
-          <h1 class="text-center text-[56px]">Choose The Best Plans</h1>
-          <h1 class="text-center text-[14px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor
-            enim, euismod nec ullamcorper tempor, maximus fermentum leo.
-          </h1>
-        </div>
-      </div>
-      <!--End Choosing plans section-->
-
-      <!--Satrt Card Pricing Package section-->
-      <div class="w-[80%] mx-auto">
-        <div class="w-full flex flex-wrap sm:flex-col md:flex-row">
-          <div
-            class="md:w-[32%] sm:w-full rounded-[15px] md:mr-3 sm:mr-0 md:mb-0 mb-4 p-10 border-[2px] border-[#ddd]"
-          >
-            <h1 class="text-center text-[30px] mb-6">Basic Package</h1>
-            <h1 class="text-center text-[14px] mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </h1>
-            <h1 class="text-center text-[48px] text-blue-600 font-medium mb-6">
-              $ 39.99 <sup class="text-[19px] text-black">/ Product</sup>
-            </h1>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">No monthly fees</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">Unlimited Course</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">Monthly Workshops</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">24/7 Support</h3>
-            </div>
-            <div class="w-full flex justify-center item-center mt-6">
-              <button
-                class="px-6 py-[5px] rounded-[15px] bg-[#9080FC] text-white font-medium"
-              >
-                Get Start
               </button>
+              <div class="p-3 hidden group-hover:block" id="question-1-1">
+                <p class="text-[14px] text-gray-400 text-opacity-100">
+                  Integer suscipit justo vel iaculis scelerisque. Nam vel
+                  porta augue. Proin egestas leo magna, vel tincidunt magna
+                  laoreet eu.
+                </p>
+              </div>
             </div>
-          </div>
-          <div
-            class="md:w-[32%] sm:w-full rounded-[15px] md:mx-3 sm:mx-0 md:mb-0 mb-4 p-10 border-[2px] border-[#ddd]"
-          >
-            <h1 class="text-center text-[30px] mb-6">Regular Package</h1>
-            <h1 class="text-center text-[14px] mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </h1>
-            <h1 class="text-center text-[48px] text-blue-600 font-medium mb-6">
-              $ 49.99 <sup class="text-[19px] text-black">/ Product</sup>
-            </h1>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">No monthly fees</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">Unlimited Course</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">Monthly Workshops</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">24/7 Support</h3>
-            </div>
-            <div class="w-full flex justify-center item-center mt-6">
-              <button
-                class="px-6 py-[5px] rounded-[15px] bg-[#9080FC] text-white font-medium"
-              >
-                Get Start
+            <!--2-->
+            <div class="">
+              <button id="question-2"
+                class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium">
+                How do I register and join Studdy?
+                <span class="p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="color: white !important" height="1em"
+                    viewBox="0 0 320 512">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </span>
               </button>
+              <div class="p-3 hidden" id="question-2-2">
+                <p class="text-[14px] text-gray-400 text-opacity-100">
+                  Integer suscipit justo vel iaculis scelerisque. Nam vel
+                  porta augue. Proin egestas leo magna, vel tincidunt magna
+                  laoreet eu.
+                </p>
+              </div>
             </div>
-          </div>
-          <div
-            class="md:w-[32%] sm:w-full rounded-[15px] md:ml-3 sm:ml-0 md:mb-0 mb-4 p-10 border-[2px] border-[#ddd]"
-          >
-            <h1 class="text-center text-[30px] mb-6">Premium Package</h1>
-            <h1 class="text-center text-[14px] mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </h1>
-            <h1 class="text-center text-[48px] text-blue-600 font-medium mb-6">
-              $ 59.99 <sup class="text-[19px] text-black">/ Product</sup>
-            </h1>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">No monthly fees</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">Unlimited Course</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">Monthly Workshops</h3>
-            </div>
-            <div class="flex mb-6 justify-center">
-              <span class="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="color: blueviolet !important"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="m9 16.2l-3.5-3.5a.984.984 0 0 0-1.4 0a.984.984 0 0 0 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7a.984.984 0 0 0 0-1.4a.984.984 0 0 0-1.4 0L9 16.2z"
-                  />
-                </svg>
-              </span>
-              <h3 class="text-center text-[16px]">24/7 Support</h3>
-            </div>
-            <div class="w-full flex justify-center item-center mt-6">
-              <button
-                class="px-6 py-[5px] rounded-[15px] bg-[#9080FC] text-white font-medium"
-              >
-                Get Start
+            <!--End 2-->
+            <!--2-->
+            <div class="">
+              <button id="question-3"
+                class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium">
+                How do I register and join Studdy?
+                <span class="p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="color: white !important" height="1em"
+                    viewBox="0 0 320 512">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </span>
               </button>
+              <div class="p-3 hidden" id="question-3-3">
+                <p class="text-[14px] text-gray-400 text-opacity-100">
+                  Integer suscipit justo vel iaculis scelerisque. Nam vel
+                  porta augue. Proin egestas leo magna, vel tincidunt magna
+                  laoreet eu.
+                </p>
+              </div>
             </div>
+            <!--End 2-->
+            <!--2-->
+            <div class="">
+              <button
+                class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium">
+                How do I register and join Studdy?
+                <span class="p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="color: white !important" height="1em"
+                    viewBox="0 0 320 512">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </span>
+              </button>
+              <div class="p-3 hidden group-hover:block">
+                <p class="text-[14px] text-gray-400 text-opacity-100">
+                  Integer suscipit justo vel iaculis scelerisque. Nam vel
+                  porta augue. Proin egestas leo magna, vel tincidunt magna
+                  laoreet eu.
+                </p>
+              </div>
+            </div>
+            <!--End 2-->
+          </div>
+        </div>
+        <div class="md:w-[50%] sm:w-full">
+          <div class="w-full">
+            <div class="">
+              <button
+                class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium">
+                How do I register and join Studdy?
+                <span class="p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="color: white !important" height="1em"
+                    viewBox="0 0 320 512">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </span>
+              </button>
+              <div class="p-3 hidden group-hover:block">
+                <p class="text-[14px] text-gray-400 text-opacity-100">
+                  Integer suscipit justo vel iaculis scelerisque. Nam vel
+                  porta augue. Proin egestas leo magna, vel tincidunt magna
+                  laoreet eu.
+                </p>
+              </div>
+            </div>
+            <!--2-->
+            <div class="">
+              <button
+                class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium">
+                How do I register and join Studdy?
+                <span class="p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="color: white !important" height="1em"
+                    viewBox="0 0 320 512">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </span>
+              </button>
+              <div class="p-3 hidden group-hover:block">
+                <p class="text-[14px] text-gray-400 text-opacity-100">
+                  Integer suscipit justo vel iaculis scelerisque. Nam vel
+                  porta augue. Proin egestas leo magna, vel tincidunt magna
+                  laoreet eu.
+                </p>
+              </div>
+            </div>
+            <!--End 2-->
+            <!--2-->
+            <div class="">
+              <button
+                class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium">
+                How do I register and join Studdy?
+                <span class="p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="color: white !important" height="1em"
+                    viewBox="0 0 320 512">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </span>
+              </button>
+              <div class="p-3 hidden group-hover:block">
+                <p class="text-[14px] text-gray-400 text-opacity-100">
+                  Integer suscipit justo vel iaculis scelerisque. Nam vel
+                  porta augue. Proin egestas leo magna, vel tincidunt magna
+                  laoreet eu.
+                </p>
+              </div>
+            </div>
+            <!--End 2-->
+            <!--2-->
+            <div class="">
+              <button
+                class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium">
+                How do I register and join Studdy?
+                <span class="p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="color: white !important" height="1em"
+                    viewBox="0 0 320 512">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </span>
+              </button>
+              <div class="p-3 hidden group-hover:block">
+                <p class="text-[14px] text-gray-400 text-opacity-100">
+                  Integer suscipit justo vel iaculis scelerisque. Nam vel
+                  porta augue. Proin egestas leo magna, vel tincidunt magna
+                  laoreet eu.
+                </p>
+              </div>
+            </div>
+            <!--End 2-->
           </div>
         </div>
       </div>
-      <!--End Card Pricing Package section-->
+    </div>
+    <!--End Frequently Asked Questions Card section-->
 
-      <!--Start Frequently Asked Questions section-->
-      <div class="w-full flex justify-center item-center mt-16">
-        <div class="w-[800px] py-8">
-          <h1 class="text-center text-[56px]">Frequently Asked Questions</h1>
-          <h1 class="text-center text-[14px]">
-            Ut eget mattis lacus, sit amet accumsan erat. Integer suscipit justo
-            vel iaculis scelerisque. Nam vel porta augue. Proin egestas leo
-            magna, vel tincidunt magna laoreet eu.
-          </h1>
-        </div>
-      </div>
-      <!--End Frequently Asked Questions section-->
-
-      <!--Start Frequently Asked Questions Card section-->
-      <div class="w-[80%] mx-auto h-[300px]">
-        <div class="w-full flex flex-wrap sm:flex-col md:flex-row">
-          <div class="md:w-[50%] sm:w-full">
-            <div class="w-full">
-              <div class="">
-                <button
-                  id="question-1"
-                  class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium"
-                >
-                  How do I register and join Studdy?
-                  <span class="p-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: white !important"
-                      height="1em"
-                      viewBox="0 0 320 512"
-                    >
-                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                      <path
-                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <div class="p-3 hidden group-hover:block" id="question-1-1">
-                  <p class="text-[14px] text-gray-400 text-opacity-100">
-                    Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna
-                    laoreet eu.
-                  </p>
-                </div>
-              </div>
-              <!--2-->
-              <div class="">
-                <button
-                  id="question-2"
-                  class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium"
-                >
-                  How do I register and join Studdy?
-                  <span class="p-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: white !important"
-                      height="1em"
-                      viewBox="0 0 320 512"
-                    >
-                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                      <path
-                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <div class="p-3 hidden" id="question-2-2">
-                  <p class="text-[14px] text-gray-400 text-opacity-100">
-                    Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna
-                    laoreet eu.
-                  </p>
-                </div>
-              </div>
-              <!--End 2-->
-              <!--2-->
-              <div class="">
-                <button
-                  id="question-3"
-                  class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium"
-                >
-                  How do I register and join Studdy?
-                  <span class="p-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: white !important"
-                      height="1em"
-                      viewBox="0 0 320 512"
-                    >
-                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                      <path
-                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <div class="p-3 hidden" id="question-3-3">
-                  <p class="text-[14px] text-gray-400 text-opacity-100">
-                    Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna
-                    laoreet eu.
-                  </p>
-                </div>
-              </div>
-              <!--End 2-->
-              <!--2-->
-              <div class="">
-                <button
-                  class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium"
-                >
-                  How do I register and join Studdy?
-                  <span class="p-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: white !important"
-                      height="1em"
-                      viewBox="0 0 320 512"
-                    >
-                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                      <path
-                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <div class="p-3 hidden group-hover:block">
-                  <p class="text-[14px] text-gray-400 text-opacity-100">
-                    Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna
-                    laoreet eu.
-                  </p>
-                </div>
-              </div>
-              <!--End 2-->
-            </div>
-          </div>
-          <div class="md:w-[50%] sm:w-full">
-            <div class="w-full">
-              <div class="">
-                <button
-                  class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium"
-                >
-                  How do I register and join Studdy?
-                  <span class="p-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: white !important"
-                      height="1em"
-                      viewBox="0 0 320 512"
-                    >
-                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                      <path
-                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <div class="p-3 hidden group-hover:block">
-                  <p class="text-[14px] text-gray-400 text-opacity-100">
-                    Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna
-                    laoreet eu.
-                  </p>
-                </div>
-              </div>
-              <!--2-->
-              <div class="">
-                <button
-                  class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium"
-                >
-                  How do I register and join Studdy?
-                  <span class="p-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: white !important"
-                      height="1em"
-                      viewBox="0 0 320 512"
-                    >
-                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                      <path
-                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <div class="p-3 hidden group-hover:block">
-                  <p class="text-[14px] text-gray-400 text-opacity-100">
-                    Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna
-                    laoreet eu.
-                  </p>
-                </div>
-              </div>
-              <!--End 2-->
-              <!--2-->
-              <div class="">
-                <button
-                  class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium"
-                >
-                  How do I register and join Studdy?
-                  <span class="p-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: white !important"
-                      height="1em"
-                      viewBox="0 0 320 512"
-                    >
-                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                      <path
-                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <div class="p-3 hidden group-hover:block">
-                  <p class="text-[14px] text-gray-400 text-opacity-100">
-                    Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna
-                    laoreet eu.
-                  </p>
-                </div>
-              </div>
-              <!--End 2-->
-              <!--2-->
-              <div class="">
-                <button
-                  class="w-full rounded-[20px] hover:bg-[#9080FC] hover:text-white py-2 px-6 border-[1.5px] flex justify-between text-[16px] font-medium"
-                >
-                  How do I register and join Studdy?
-                  <span class="p-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="color: white !important"
-                      height="1em"
-                      viewBox="0 0 320 512"
-                    >
-                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                      <path
-                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <div class="p-3 hidden group-hover:block">
-                  <p class="text-[14px] text-gray-400 text-opacity-100">
-                    Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna
-                    laoreet eu.
-                  </p>
-                </div>
-              </div>
-              <!--End 2-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--End Frequently Asked Questions Card section-->
-
-      <!--Start Frequently Asked Questions section-->
-      <div class="w-[80%] mt-20 mx-auto">
-        <div class="w-full flex flex-wrap sm:flex-col md:flex-row">
-          <div class="md:w-[50%] sm:w-full">
-            <h1 class="text-[40px]">Get In Touch</h1>
-            <p class="text-[14px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed
-              tincidunt velit. Donec bibendum turpis vitae maximus.
-            </p>
-            <div class="w-full mt-6 flex">
-              <i
-                aria-hidden="true"
-                class="text-[40px] text-[#9080FC] mr-4 elementkit-infobox-icon fas fa-map-marker-alt"
-              ></i>
-              <span>
-                <h2 class="text-[20px] font-medium">Address</h2>
-                <p>827, Phnom penh, Cambodia</p>
-              </span>
-            </div>
-            <div class="w-full mt-6 flex">
-              <i
-                aria-hidden="true"
-                class="text-[40px] text-[#9080FC] mr-4 elementkit-infobox-icon fas fa-envelope"
-              ></i>
-              <span>
-                <h2 class="text-[20px] font-medium">Email</h2>
-                <p>example@gmail.com</p>
-              </span>
-            </div>
-            <div class="w-full mt-6 flex">
-              <i
-                aria-hidden="true"
-                class="text-[40px] text-[#9080FC] mr-4 elementkit-infobox-icon fas fa-phone-alt"
-              ></i>
-              <span>
-                <h2 class="text-[20px] font-medium">Phone</h2>
-                <p>+855 213521189</p>
-              </span>
-            </div>
-          </div>
-          <div class="md:w-[50%] sm:w-full p-3">
-            <div
-              class="w-full flex justify-center py-6 px-1 rounded-[15px] hover:bg-blue-200"
-            >
-              <form action="" class="w-[80%]">
-                <div class="w-full flex justify-between">
-                  <input
-                    placeholder="First Name"
-                    class="w-[48%] h-[45px] border-[2px] outline-none py-2 px-4 rounded-[20px]"
-                    type="text"
-                    name=""
-                    id=""
-                  />
-                  <input
-                    placeholder="Last Name"
-                    class="w-[48%] h-[45px] border-[2px] outline-none py-2 px-4 rounded-[20px]"
-                    type="text"
-                    name=""
-                    id=""
-                  />
-                </div>
-                <div class="w-full my-6">
-                  <input
-                    placeholder="Email"
-                    class="w-full h-[45px] border-[2px] outline-none py-2 px-4 rounded-[20px]"
-                    type="email"
-                    name=""
-                    id=""
-                  />
-                </div>
-                <div class="w-full">
-                  <textarea
-                    placeholder="Message..."
-                    class="w-full rounded-[20px] border-[2px] border-[#ddd] outline-none py-1 px-2"
-                    name="nd"
-                    id="dd"
-                    cols="30"
-                    rows="6"
-                  >
-                  </textarea>
-                </div>
-                <div class="mt-6 w-full flex justify-center">
-                  <button
-                    class="px-4 py-2 bg-blue-500 text-white font-medium rounded-[20px]"
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="w-[80%] mx-auto mt-8 bg-slate-200 rounded-[15px]">
-        <div class="w-[80%] mx-auto p-6">
-          <h1 class="text-center text-[48px] my-3">
-            Ready to start learning? Contact us!
-          </h1>
-          <p class="text-center text-[14px] my-3">
+    <!--Start Frequently Asked Questions section-->
+    <div class="w-[80%] mt-20 mx-auto">
+      <div class="w-full flex flex-wrap sm:flex-col md:flex-row">
+        <div class="md:w-[50%] sm:w-full">
+          <h1 class="text-[40px]">Get In Touch</h1>
+          <p class="text-[14px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed
-            tincidunt velit. Donec bibendum turpis.
+            tincidunt velit. Donec bibendum turpis vitae maximus.
           </p>
-          <div class="w-full flex justify-center my-8">
-            <div class="flex">
-              <button
-                class="px-5 py-2 bg-blue-400 text-white font-medium rounded-[20px] mx-2"
-              >
-                Contact Us
-              </button>
-              <button
-                class="px-5 py-2 bg-blue-400 text-white font-medium rounded-[20px] mx-2"
-              >
-                Send Email
-              </button>
-            </div>
+          <div class="w-full mt-6 flex">
+            <i aria-hidden="true"
+              class="text-[40px] text-[#9080FC] mr-4 elementkit-infobox-icon fas fa-map-marker-alt"></i>
+            <span>
+              <h2 class="text-[20px] font-medium">Address</h2>
+              <p>827, Phnom penh, Cambodia</p>
+            </span>
+          </div>
+          <div class="w-full mt-6 flex">
+            <i aria-hidden="true" class="text-[40px] text-[#9080FC] mr-4 elementkit-infobox-icon fas fa-envelope"></i>
+            <span>
+              <h2 class="text-[20px] font-medium">Email</h2>
+              <p>example@gmail.com</p>
+            </span>
+          </div>
+          <div class="w-full mt-6 flex">
+            <i aria-hidden="true" class="text-[40px] text-[#9080FC] mr-4 elementkit-infobox-icon fas fa-phone-alt"></i>
+            <span>
+              <h2 class="text-[20px] font-medium">Phone</h2>
+              <p>+855 213521189</p>
+            </span>
+          </div>
+        </div>
+        <div class="md:w-[50%] sm:w-full p-3">
+          <div class="w-full flex justify-center py-6 px-1 rounded-[15px] hover:bg-blue-200">
+            <form action="" class="w-[80%]">
+              <div class="w-full flex justify-between">
+                <input placeholder="First Name"
+                  class="w-[48%] h-[45px] border-[2px] outline-none py-2 px-4 rounded-[20px]" type="text" name=""
+                  id="" />
+                <input placeholder="Last Name"
+                  class="w-[48%] h-[45px] border-[2px] outline-none py-2 px-4 rounded-[20px]" type="text" name=""
+                  id="" />
+              </div>
+              <div class="w-full my-6">
+                <input placeholder="Email" class="w-full h-[45px] border-[2px] outline-none py-2 px-4 rounded-[20px]"
+                  type="email" name="" id="" />
+              </div>
+              <div class="w-full">
+                <textarea placeholder="Message..."
+                  class="w-full rounded-[20px] border-[2px] border-[#ddd] outline-none py-1 px-2" name="nd" id="dd"
+                  cols="30" rows="6">
+                  </textarea>
+              </div>
+              <div class="mt-6 w-full flex justify-center">
+                <button class="px-4 py-2 bg-blue-500 text-white font-medium rounded-[20px]">
+                  Send Message
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- footer -->
-      <div class="w-full mt-20 px-5 lg:px-0">
-        <div
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:w-[1000px] m-auto border-t-[0.5px] border-[#EEEEE] border-b-[0.5px] py-5"
-        >
-          <div>
-            <img
-              width="80"
-              src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png"
-              alt=""
-            />
-            <p class="mt-5 mb-5 text-[12px] text-[gray]">
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
-            </p>
-            <img
-              width="170"
-              src="../../public/image/Screenshot 2023-11-25 161720.png"
-              alt=""
-            />
+    <div class="w-[80%] mx-auto mt-8 bg-slate-200 rounded-[15px]">
+      <div class="w-[80%] mx-auto p-6">
+        <h1 class="text-center text-[48px] my-3">
+          Ready to start learning? Contact us!
+        </h1>
+        <p class="text-center text-[14px] my-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed
+          tincidunt velit. Donec bibendum turpis.
+        </p>
+        <div class="w-full flex justify-center my-8">
+          <div class="flex">
+            <button class="px-5 py-2 bg-blue-400 text-white font-medium rounded-[20px] mx-2">
+              Contact Us
+            </button>
+            <button class="px-5 py-2 bg-blue-400 text-white font-medium rounded-[20px] mx-2">
+              Send Email
+            </button>
           </div>
-          <div class="flex flex-col gap-4">
-            <h3 class="text-[18px] font-[500]">Our Address</h3>
-            <p class="text-[12px] text-[gray] flex gap-2">
-              <img
-                src="../../public/image/location.png"
-                alt=""
-                width="15"
-                class="object-cover"
-              />
-              732 Despard St, Atlanta
-            </p>
-            <p class="text-[12px] text-[gray] flex gap-2">
-              <img
-                src="../../public/image/phone.png"
-                alt=""
-                width="15"
-                class="object-cover"
-              />
-              +1 234 567 890
-            </p>
-            <p class="text-[12px] text-[gray] flex gap-2">
-              <img
-                src="../../public/image/mail.png"
-                alt=""
-                width="15"
-                class="object-cover"
-              />
-              anymail@mail.com
-            </p>
-            <p class="text-[12px] text-[gray] flex gap-2">
-              <img
-                src="../../public/image/time.png"
-                alt=""
-                width="15"
-                class="object-cover"
-              />
-              09.00 - 17.00
-            </p>
-          </div>
-          <div class="flex flex-col gap-3">
-            <h3 class="text-[18px] font-[500]">Quick Links</h3>
-            <a href="" class="text-[12px] text-[gray]">Home</a>
-            <a href="./page/about/about.html" class="text-[12px] text-[gray]"
-              >About</a
-            >
-            <a href="./page/FAQs/faq.html" class="text-[12px] text-[gray]"
-              >FAQs</a
-            >
-            <a href="./page/blog/block.html" class="text-[12px] text-[gray]"
-              >Blog</a
-            >
-            <a
-              href="./page/contact-page/contact-page.html"
-              class="text-[12px] text-[gray]"
-              >Contact</a
-            >
-          </div>
-          <div class="flex flex-col gap-3">
-            <h3 class="text-[18px] font-[500]">Newsletter</h3>
-            <input
-              type="text"
-              class="mt-10 outline-none border-[0.5px] border-[#EEEEE] rounded-[25px] px-5 py-3 text-[12px] text-[gray]"
-              placeholder="Your email"
-            />
-            <span
-              class="cursor-pointer w-fit mt-3 text-[12px] bg-[#0000ff72] text-white px-6 py-2 rounded-[25px] hover:text-black hover:bg-white hover:border-[0.5px] hover:border-[#0000ff72]"
-            >
-              Subscribe</span
-            >
-          </div>
-        </div>
-        <div class="w-full lg:w-[1000px] m-auto py-5 flex justify-between">
-          <p class="text-[12px] text-[gray]">Copyright © 2021 ASK Project</p>
-          <p class="text-[12px] text-[gray]">Privacy Policy Terms & Services</p>
         </div>
       </div>
-    </main>
+    </div>
 
-    <script>
-      const q_1 = document.getElementById("question-1");
-      q_1.addEventListener("click", function () {
-        if (
-          document.getElementById("question-1-1").classList.contains("hidden")
-        ) {
-          document.getElementById("question-1-1").classList.remove("hidden");
-        } else {
-          document.getElementById("question-1-1").classList.add("hidden");
-        }
-      });
-    </script>
-  </body>
+    <!-- footer -->
+    <div class="w-full mt-20 px-5 lg:px-0">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:w-[1000px] m-auto border-t-[0.5px] border-[#EEEEE] border-b-[0.5px] py-5">
+        <div>
+          <img width="80" src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png"
+            alt="" />
+          <p class="mt-5 mb-5 text-[12px] text-[gray]">
+            Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
+          </p>
+          <img width="170" src="../../public/image/Screenshot 2023-11-25 161720.png" alt="" />
+        </div>
+        <div class="flex flex-col gap-4">
+          <h3 class="text-[18px] font-[500]">Our Address</h3>
+          <p class="text-[12px] text-[gray] flex gap-2">
+            <img src="../../public/image/location.png" alt="" width="15" class="object-cover" />
+            732 Despard St, Atlanta
+          </p>
+          <p class="text-[12px] text-[gray] flex gap-2">
+            <img src="../../public/image/phone.png" alt="" width="15" class="object-cover" />
+            +1 234 567 890
+          </p>
+          <p class="text-[12px] text-[gray] flex gap-2">
+            <img src="../../public/image/mail.png" alt="" width="15" class="object-cover" />
+            anymail@mail.com
+          </p>
+          <p class="text-[12px] text-[gray] flex gap-2">
+            <img src="../../public/image/time.png" alt="" width="15" class="object-cover" />
+            09.00 - 17.00
+          </p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <h3 class="text-[18px] font-[500]">Quick Links</h3>
+          <a href="" class="text-[12px] text-[gray]">Home</a>
+          <a href="./page/about/about.html" class="text-[12px] text-[gray]">About</a>
+          <a href="./page/FAQs/faq.html" class="text-[12px] text-[gray]">FAQs</a>
+          <a href="./page/blog/block.html" class="text-[12px] text-[gray]">Blog</a>
+          <a href="./page/contact-page/contact-page.html" class="text-[12px] text-[gray]">Contact</a>
+        </div>
+        <div class="flex flex-col gap-3">
+          <h3 class="text-[18px] font-[500]">Newsletter</h3>
+          <input type="text"
+            class="mt-10 outline-none border-[0.5px] border-[#EEEEE] rounded-[25px] px-5 py-3 text-[12px] text-[gray]"
+            placeholder="Your email" />
+          <span
+            class="cursor-pointer w-fit mt-3 text-[12px] bg-[#0000ff72] text-white px-6 py-2 rounded-[25px] hover:text-black hover:bg-white hover:border-[0.5px] hover:border-[#0000ff72]">
+            Subscribe</span>
+        </div>
+      </div>
+      <div class="w-full lg:w-[1000px] m-auto py-5 flex justify-between">
+        <p class="text-[12px] text-[gray]">Copyright © 2021 ASK Project</p>
+        <p class="text-[12px] text-[gray]">Privacy Policy Terms & Services</p>
+      </div>
+    </div>
+  </main>
+  <script src="../../js.js"></script>
+  <script>
+    const q_1 = document.getElementById("question-1");
+    q_1.addEventListener("click", function () {
+      if (
+        document.getElementById("question-1-1").classList.contains("hidden")
+      ) {
+        document.getElementById("question-1-1").classList.remove("hidden");
+      } else {
+        document.getElementById("question-1-1").classList.add("hidden");
+      }
+    });
+  </script>
+</body>
+
 </html>
