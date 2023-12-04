@@ -33,21 +33,20 @@
           <li><a href="./page/course/course.html">Course</a></li>
           <li class="flex gap-3 items-center relative page">
             <div class="flex gap-5 items-center">
-
               <span>Page</span>
               <img src="./public/image/down-arrow.png" alt="" class="w-[10px] h-[10px]" />
             </div>
-            <ul class="sub-menu">
+            <ul class="sub-menu bg-white">
               <li><a href="./page/FAQs/faq.html">FAQs Page</a></li>
               <li><a href="./page/mentor/mentor.html">Mentor </a></li>
               <li><a href="./page/pricing/">Pricing</a></li>
-              <li><a href="">Testimonials</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href=""> Single Post</a></li>
+              <li><a href="./page/testimonials/index.html">Testimonials</a></li>
+              <li><a href="./page/blog/block.html">Blog</a></li>
+              <li><a href="./page/single-post/single-post.html"> Single Post</a></li>
               <li><a href="">404 Page</a></li>
             </ul>
           </li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="./page/contact-page/contact-page.html">Contact</a></li>
         </ul>
       </div>
       <div class="login-sigin mr-10 lg:mr-0">
@@ -363,10 +362,10 @@
         <h3 class="text-[18px] font-[500]">Quick Links
         </h3>
         <a href="" class="text-[12px] text-[gray]">Home</a>
-        <a href="" class="text-[12px] text-[gray]">About</a>
-        <a href="" class="text-[12px] text-[gray]">FAQs</a>
-        <a href="" class="text-[12px] text-[gray]">Blog</a>
-        <a href="" class="text-[12px] text-[gray]">Contact</a>
+        <a href="./page/about/about.html" class="text-[12px] text-[gray]">About</a>
+        <a href="./page/FAQs/faq.html" class="text-[12px] text-[gray]">FAQs</a>
+        <a href="./page/blog/block.html" class="text-[12px] text-[gray]">Blog</a>
+        <a href="./page/contact-page/contact-page.html" class="text-[12px] text-[gray]">Contact</a>
       </div>
       <div class="flex flex-col gap-3">
         <h3 class="text-[18px] font-[500]">Newsletter
@@ -405,17 +404,8 @@
     });
   }
 
-  var iconMenu = document.querySelector(".berger");
-  var menu = document.querySelector(".menu");
-  var iconHide = document.querySelector(".icon-hide");
-  iconMenu.addEventListener("click", () => {
 
-    menu.setAttribute("style", "left:0; transition: all 1s;");
-  });
-
-  iconHide.addEventListener("click", () => {
-    menu.removeAttribute("style");
-  });
 </script>
+<script src="./js.js"></script>
 
 </html>

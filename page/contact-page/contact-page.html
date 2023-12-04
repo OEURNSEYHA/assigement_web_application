@@ -1,20 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIRjUKqrcMW9I3NkSwwepymuwe-8Ff9VM"></script>
+    <link rel="stylesheet" href="../home-page/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <div class="col-lg-12">
-        <div class="imgg">
-            
+    <!-- header -->
+    <div class="px-5 lg:px-0 header">
+        <div class="content-header">
+            <a href="/">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png" alt=""
+                    width="80" /></a>
+            <div class="menu">
+                <ul>
+                    <div class=" flex  ">
+                        <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png"
+                            alt="" width="50" class="lg:hidden" />
+                        <img src="../../public/image/cross.png" alt="" class="icon-hide lg:hidden absolute right-5"
+                            width="20" />
+                    </div>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="../course/course.html">Course</a></li>
+                    <li class="flex gap-3 items-center relative page">
+                        <div class="flex gap-5 items-center">
+                            <span>Page</span>
+                            <img src="../../public/image/down-arrow.png" alt="" class="w-[10px] h-[10px]" />
+                        </div>
+                        <ul class="sub-menu bg-white">
+                            <li><a href="../FAQs/faq.html">FAQs Page</a></li>
+                            <li><a href="../mentor/mentor.html">Mentor </a></li>
+                            <li><a href="../pricing/">Pricing</a></li>
+                            <li><a href="../testimonials/index.html">Testimonials</a></li>
+                            <li><a href="../blog/block.html">Blog</a></li>
+                            <li><a href="../single-post/single-post.html"> Single Post</a></li>
+                            <li><a href="../page-notfound.html">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contact-page.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login-sigin mr-10 lg:mr-0">
+                <div class="btn-login">Login</div>
+                <div class="btn-signup">SignUp</div>
+            </div>
+            <img src="../../public/image/menu (3).png" alt="" width="20" class="lg:hidden berger absolute right-5" />
         </div>
+    </div>
+    <div class="col-lg-12">
+        <div class="img"> </div>
     </div>
 
     <section class="container">
@@ -23,41 +70,45 @@
             <div class="col-lg-6">
                 <div class="location">
                     <h1>Get In Touch</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis vitae maximus.</p>
-                        <ul>
-                            <li>
-                                <a href="https://www.google.com/maps?q=RUPP+Royal+University+of+PhnomPenh+Phnom+Penh+Cambodia" target="_blank"><i class="fa-solid fa-location-dot"></i> Address</a>
-                                <a href="https://www.google.com/maps?q=RUPP+Royal+University+of+PhnomPenh+Phnom+Penh+Cambodia" target="_blank">
-                                    <p>RUPP- Royal University of PhnomPenh <br>Phnom Penh, Cambodia.</p>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://mail.google.com/mail/?view=cm&to=studdy.rupp@rupp.edu.com" target="_blank"><i class="fa-solid fa-envelope"></i> Email</a>
-                                <a href="https://mail.google.com/mail/?view=cm&to=studdy.rupp@rupp.edu.com" target="_blank">
-                                    <p>studdy.rupp@rupp.edu.com</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="tel:+855962354283"><i class="fa-solid fa-phone"></i> Phone</a>
-                                <a href="tel:+855962354283">
-                                    <p>(+855) 96-23-54-283</p>
-                                </a>
-                            </li>
-                        </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec
+                        bibendum turpis vitae maximus.</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.google.com/maps?q=RUPP+Royal+University+of+PhnomPenh+Phnom+Penh+Cambodia"
+                                target="_blank"><i class="fa-solid fa-location-dot"></i> Address</a>
+                            <a href="https://www.google.com/maps?q=RUPP+Royal+University+of+PhnomPenh+Phnom+Penh+Cambodia"
+                                target="_blank">
+                                <p>RUPP- Royal University of PhnomPenh <br>Phnom Penh, Cambodia.</p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&to=studdy.rupp@rupp.edu.com"
+                                target="_blank"><i class="fa-solid fa-envelope"></i> Email</a>
+                            <a href="https://mail.google.com/mail/?view=cm&to=studdy.rupp@rupp.edu.com" target="_blank">
+                                <p>studdy.rupp@rupp.edu.com</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+855962354283"><i class="fa-solid fa-phone"></i> Phone</a>
+                            <a href="tel:+855962354283">
+                                <p>(+855) 96-23-54-283</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-    
+
             <!-- Message -->
             <div class="col-lg-6">
                 <div class="container-form">
                     <form onsubmit="sendEmail(); reset(); return false;">
                         <div class="name">
-                            <input type="text"  id="fname" placeholder="First Name" required>
-                            <input type="text"  id="lname" placeholder="Last Name" required>
+                            <input type="text" id="fname" placeholder="First Name" required>
+                            <input type="text" id="lname" placeholder="Last Name" required>
                         </div>
                         <input type="email" id="email" placeholder="Email" required>
-                        <textarea   id="message" cols="50" rows="4" placeholder="Message"></textarea>
+                        <textarea id="message" cols="50" rows="4" placeholder="Message"></textarea>
                         <button type="submit">Send Message</button>
                     </form>
                 </div>
@@ -70,14 +121,21 @@
                 <h1>Follow Us</h1>
             </div>
             <div class="icon">
-                <a href="https://www.facebook.com/BLACKPINKOFFICIAL" target="_blank" id="icon1"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://twitter.com/JYPETWICE" target="_blank" id="icon1"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.youtube.com/watch?v=2zc54i2ZxXg&list=RD2zc54i2ZxXg&index=1&ab_channel=HengPitou" target="_blank" id="icon1"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://instagram.com/roses_are_rosie?igshid=MWh6ams4OHl1cnA3YQ==" target="_blank" id="icon1"><i class="fa-brands fa-instagram"></i></a>        
+                <a href="https://www.facebook.com/BLACKPINKOFFICIAL" target="_blank" id="icon1"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/JYPETWICE" target="_blank" id="icon1"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/watch?v=2zc54i2ZxXg&list=RD2zc54i2ZxXg&index=1&ab_channel=HengPitou"
+                    target="_blank" id="icon1"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://instagram.com/roses_are_rosie?igshid=MWh6ams4OHl1cnA3YQ==" target="_blank"
+                    id="icon1"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15635.082651035058!2d104.88039025068649!3d11.56829171812223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRUPP%20(Royal%20University%20of%20Phnom%20Penh)!5e0!3m2!1sen!2skh!4v1700632629721!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15635.082651035058!2d104.88039025068649!3d11.56829171812223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRUPP%20(Royal%20University%20of%20Phnom%20Penh)!5e0!3m2!1sen!2skh!4v1700632629721!5m2!1sen!2skh"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
@@ -85,7 +143,8 @@
         <div class="col-lg-12">
             <div class="information-container">
                 <h1>Ready to start learning? Contact us!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
+                    turpis.</p>
                 <div class="twin-button">
                     <button type="submit" id="btn">
                         <a href="tel:+855962354283">
@@ -101,8 +160,59 @@
             </div>
         </div>
     </section>
-    <div class="blank" >
+    <div class="blank">
         <h1 style="padding-bottom: 5%;"></h1>
     </div>
+    <!-- footer -->
+    <div class="w-full mt-20  px-5 lg:px-0">
+        <div
+            class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:w-[1000px] m-auto  border-t-[0.5px] border-[#EEEEE] border-b-[0.5px] py-5">
+            <div>
+                <img width="80" src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/logo_Asset-7.png"
+                    alt="">
+                <p class="mt-5 mb-5 text-[12px] text-[gray]">Lorem ipsum dolor sit amet, consec tetur adipiscing
+                    elit.</p>
+                <img width="170" src="../../public/image/Screenshot 2023-11-25 161720.png" alt="">
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="text-[18px] font-[500]">Our Address
+                </h3>
+                <p class="text-[12px] text-[gray] flex gap-2"><img src="../../public/image/location.png" alt=""
+                        width="15" class="object-cover"> 732 Despard St, Atlanta</p>
+                <p class="text-[12px] text-[gray] flex gap-2"><img src="../../public/image/phone.png" alt="" width="15"
+                        class="object-cover"> +1 234 567 890</p>
+                <p class="text-[12px] text-[gray] flex gap-2"><img src="../../public/image/mail.png" alt="" width="15"
+                        class="object-cover"> anymail@mail.com</p>
+                <p class="text-[12px] text-[gray] flex gap-2"><img src="../../public/image/time.png" alt="" width="15"
+                        class="object-cover"> 09.00 - 17.00</p>
+            </div>
+            <div class="flex flex-col gap-3">
+                <h3 class="text-[18px] font-[500]">Quick Links
+                </h3>
+                <a href="" class="text-[12px] text-[gray]">Home</a>
+                <a href="./page/about/about.html" class="text-[12px] text-[gray]">About</a>
+                <a href="./page/FAQs/faq.html" class="text-[12px] text-[gray]">FAQs</a>
+                <a href="./page/blog/block.html" class="text-[12px] text-[gray]">Blog</a>
+                <a href="./page/contact-page/contact-page.html" class="text-[12px] text-[gray]">Contact</a>
+            </div>
+            <div class="flex flex-col gap-3">
+                <h3 class="text-[18px] font-[500]">Newsletter
+                </h3>
+                <input type="text"
+                    class=" mt-10 outline-none border-[0.5px] border-[#EEEEE] rounded-[25px] px-5 py-3 text-[12px] text-[gray]"
+                    placeholder="Your email">
+                <span
+                    class=" cursor-pointer w-fit mt-3 text-[12px] bg-[#0000ff72] text-white px-6 py-2 rounded-[25px] hover:text-black hover:bg-white hover:border-[0.5px] hover:border-[#0000ff72]">
+                    Subscribe</span>
+            </div>
+
+        </div>
+        <div class="w-full lg:w-[1000px] m-auto py-5 flex justify-between">
+            <p class="text-[12px] text-[gray]">Copyright © 2021 ASK Project</p>
+            <p class="text-[12px] text-[gray]">Privacy Policy
+                Terms & Services</p>
+        </div>
+    </div>
 </body>
+
 </html>
